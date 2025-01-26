@@ -1,10 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-const AboutPage = () => import('../pages/AboutPage.vue')
+const AboutPage = () => import('../pages/aboutpage.vue')
 
-const NotFoundPage = () => import('../pages/NotFoundPage.vue')
+const NotFoundPage = () => import('../pages/notfoundpage.vue')
 
-import ToDoPage from '../pages/ToDoPage.vue'
+import ToDoPage from '../pages/todopage.vue'
 
 const routes = [
   {
