@@ -16,9 +16,9 @@
   
   <script>
   import { onMounted, computed } from 'vue'
-  import { useTodoStore } from '../store/todoStore'
+  import { useTodoStore } from '../store/todostore'
   import { storeToRefs } from 'pinia'
-  import AddTodo from '../components/AddTodo.vue'
+  import AddTodo from '../components/addtodo.vue'
   import TaskList from '../components/TaskList.vue'
   
   export default {
