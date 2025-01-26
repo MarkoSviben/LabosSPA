@@ -19,7 +19,7 @@
   import { useTodoStore } from '../store/todostore'
   import { storeToRefs } from 'pinia'
   import AddTodo from '../components/addtodo.vue'
-  import TaskList from '../components/TaskList.vue'
+  import TaskList from '../components/tasklist.vue'
   
   export default {
     name: 'ToDoPage',
